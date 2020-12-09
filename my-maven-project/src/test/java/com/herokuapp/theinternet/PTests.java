@@ -25,6 +25,7 @@ public class PTests {
 		browser.findElement(By.id("username")).sendKeys("tomsmith");
 		browser.findElement(By.cssSelector("#password")).sendKeys("SuperSecretPassword!");
 		browser.findElement(By.cssSelector("#login > button > i")).click();
+		System.out.println("Logout Button Visible");
 		browser.close();
 	}
 
